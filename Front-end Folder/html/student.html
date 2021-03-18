@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/student.css">
+    <script defer src="js/student.js"></script>
+    <title>Student Quiz</title>
+</head>
+
+<body>
+    <h1>Student Quiz</h1>
+    <div id="quizInfo" class="hide">
+        <p id="info">
+            Quiz will be here
+        </p>
+        <textarea id="correctAnswer" placeholder="Your answer: 1,2,3,4"></textarea>
+        <button type="button" id="nextButton" onclick="next()">Next</button>
+        <button type="button" id="submitButton" onclick="submit()">Submit</button>
+
+    </div>
+    <p id="scores" class="hide">
+        Scores will be here
+    </p>
+
+    <button type="button" id="startButton" onclick="start()">Start the Quiz</button>
+    <button id="backButton" onclick="location.href='/COMP351/individualProject/index.html'">Back</button>
+    <button type="button" id="exitButton" onclick="location.href='/COMP351/individualProject/index.html'" class="hide">Exit</button>
+</body>

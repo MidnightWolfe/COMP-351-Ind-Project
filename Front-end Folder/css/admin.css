@@ -1,0 +1,150 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+    color: rgb(0, 0, 0)
+}
+
+#backButton {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #31B0D5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+}
+
+#beginButton {
+    position: fixed;
+    top: 250px;
+    right: 895px;
+    color: rgb(0, 0, 0);
+    background-color: #1ea529;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #138138;
+}
+
+#question {
+    width: 260px;
+    height: 100px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#option1 {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#option2 {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#option3 {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#option4 {
+    width: 260px;
+    height: 60px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#correctAnswer {
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#storeButton {
+    position: fixed;
+    bottom: 120px;
+    right: 760px;
+    color: rgb(0, 0, 0);
+    background-color: #1ea529;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #138138;
+}
+
+#previousButton {
+    position: fixed;
+    bottom: 215px;
+    left: 690px;
+    color: rgb(0, 0, 0);
+    background-color: #31B0D5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #1d809e;
+}
+
+#nextButton {
+    position: fixed;
+    bottom: 215px;
+    right: 700px;
+    color: rgb(0, 0, 0);
+    background-color: #31B0D5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #1d809e;
+}
+
+#addButton {
+    position: fixed;
+    bottom: 120px;
+    right: 900px;
+    color: rgb(0, 0, 0);
+    background-color: #31B0D5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #1d809e;
+}
+
+#deleteButton {
+    position: fixed;
+    bottom: 120px;
+    right: 1050px;
+    color: rgb(0, 0, 0);
+    background-color: #ce2929;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #aa1d1d;
+}
+
+#updateButton {
+    position: fixed;
+    bottom: 120px;
+    right: 730px;
+    color: rgb(0, 0, 0);
+    background-color: #1ea529;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #138138;
+}

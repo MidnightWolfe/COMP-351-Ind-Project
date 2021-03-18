@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <script defer src="js/admin.js"></script>
+    <title>Admin Page</title>
+</head>
+
+<body>
+    <h1>Admin Quiz Controls</h1>
+    <div id="startQuiz" class="hide">
+        <h2 id="currentQuestionNumber">...</h2>
+        <p>For making 2 - 4 options, just leave the textarea blank</p>
+        <p> </p><textarea id="question" placeholder="Type a question"></textarea></n>
+        <p> </p><textarea id="option1" placeholder="Type a option 1"></textarea></n>
+        <p> </p><textarea id="option2" placeholder="Type a option 2"></textarea></n>
+        <p> </p><textarea id="option3" placeholder="Type a option 3"></textarea></n>
+        <p> </p><textarea id="option4" placeholder="Type a option 4"></textarea></n>
+        <p> </p><textarea id="correctAnswer" placeholder="Correct Answer: 1,2,3, or 4"></textarea>
+        <p id="message">Nothing stored yet...</p>
+        <button type="button" id="storeButton" onclick="send()">Store in DB</button>
+        <button type="button" id="previousButton" onclick="prevQuestion()">Previous</button>
+        <button type="button" id="nextButton" onclick="nextQuestion()">Next</button>
+        <button type="button" id="addButton" onclick="addQuestion()">Add Question</button>
+        <button type="button" id="deleteButton" onclick="deleteQ()">Delete Question</button>
+        <button type="button" id="updateButton" onclick="update()" class="hide">Update Question</button>
+    </div>
+    <button id="beginButton" onclick="startQuiz()">Edit Questions</button><br><br>
+    <button id="backButton" onclick="location.href='/COMP351/individualProject/index.html'">Back</button>
+
+</body>
